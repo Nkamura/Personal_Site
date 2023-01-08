@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Nunito:wght@600&display=swap');
+
+//https://www.homehost.com.br/blog/tutoriais/tabela-de-cores-html/
+
+//https://www.w3schools.com/cssref/css3_pr_background.asp
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MedievalSharp', cursive; 
+}
+
+/**
+.banner{
+    background-image: url(g2.jpg);
+    background-position: top center;
+    background-size: 100% auto;  
+    background-repeat: no-repeat;
+    //background-image:url("../scenarios/g2.jpg");
+}
+**/
+.body{
+    //position: relative;
+    //width: 100%;
+    //height: 100vh;
+    background-image: url("./scenarios/g6.jpg");
+    background-size: 102% auto;  
+    background-repeat: no-repeat;
+    background-color: #000;
+    
+
+    //background-size: cover;
+    //background-position: bottom;
+    display: contain;
+    justify-content: center;
+    align-items: center;
+
+}
